@@ -1,0 +1,16 @@
+# ———-Youtube ads rules————
+/(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+)/
+/^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad/
+/^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break/
+/^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads/
+/^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)/
+/^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext/
+/^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)/
+||azabu-u.ac.jp^
+||couchcoaster.jp^
+||delivery.dmkt-sp.jp^
+||ehg-youtube.hitbox.com^
+||m-78.jp^
+||nichibenren.or.jp^
+||nicorette.co.kr^
+! ———Youtube ads rules END HERE———
