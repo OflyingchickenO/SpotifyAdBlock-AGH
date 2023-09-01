@@ -6,6 +6,7 @@
 /^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)/
 /^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext/
 /^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)/
+||youtubei.googleapis.com^
 ||azabu-u.ac.jp^
 ||couchcoaster.jp^
 ||delivery.dmkt-sp.jp^
